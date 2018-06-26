@@ -34,9 +34,6 @@ void search(const char* T, int n, int* A, char* p, int m){
   }
 }
 
-/*
-* returns the width of the match
-*/
 int match(int s, const char* T, int n, char* p, int m){
   for(int i=0; i<m; ++i){
     if(s + i >= n || p[i] != T[s + i]){
