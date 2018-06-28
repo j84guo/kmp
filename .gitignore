@@ -1,2 +1,6 @@
+# c++
 *.out
 bin/
+
+# java
+*.class
